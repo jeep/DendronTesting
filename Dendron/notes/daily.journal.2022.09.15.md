@@ -2,7 +2,7 @@
 id: 9vsd48u2p5rbajdz9cl89y5
 title: '2022-09-15'
 desc: ''
-updated: 1663452126326
+updated: 1663520800350
 created: 1663259878972
 traitIds:
   - journalNote
@@ -16,7 +16,7 @@ traitIds:
 embed todo file's "next actions" section
 link to to list
 + [ ] Something I should do
-+ [ ] These should move into the "todo" file once I process, if I haven't done it haven't done
++ [ ] These should mOve into the "todo" file once I process, if I haven't done it haven't done
 + [x] This is a completed item, it doesn't need to move, just lives here
 + [x] When I complete an item in my "todo" file, I want the completion to move to the daily when it was completed. 
 * [ ] Any way to put items here automagically with a shortcut?
@@ -32,16 +32,16 @@ Get-ChildItem NotReally
 Get-ChildItem ACoolThing
 ```
 + I don't want to forget this and should be in its own note tiny note named "neato-thing"
-+ In order to do some work thing in Powershell you do this- this should be in intel.whereever
-> + Log into suchandsuch.website
-> + Gather this information
-> + Execute these commands
->> ```
-az cli command to do-the-thing
-az cli command to do-the-next-thing
->> ```
++ In order to do some work thing in Powershell you do this- this should be in intel.notename
+  + Log into suchandsuch.website
+  + Gather this information
+  + Execute these commands
+    ~~~shell
+    az cli cmd-to do-the-thing
+    az cli cmd-to do-the-next-thing
+    ~~~
 
-## Meeting1 - a recurrint that I participate in
+## Meeting1 - a recurring that I participate in
 + We talked about the thing
 + Decision made: We will do that thing
 + AR: Do my part of the thing This needs to turn into a ToDo in my todos
@@ -69,33 +69,34 @@ az cli command to do-the-next-thing
 + ProjectA was presented and doesn't need to get done at all
 + All these should be in m.intake.date and leave a reference here
 
-## Recurring 1:1 with Bossman
+## 1:1 with Bossman (Recurring)
 + He suggested that I think about something or other
-+ I updated bossman on IssueXYZ, which is now resolved
-+ Project C is behind schedule. Any requests from that team should be given priority
-+ We talked about performance of Person2. I communicated that he's doing great. Person2 should have a backlink to this
++ I updated Bossman on IssueXYZ, which is now resolved
++ ProjectC is behind schedule. Any requests from that team should be given priority
++ We talked about performance of Person2. I communicated that he's doing great. (Person2 should have a backlink to this)
 + All this needs to go in either m.1on1.bossman.date or c.bossman.date
 
 ## Code reviews
 + knocked out 6 reviews
-+ link.to.review.com
++ link.to.review.com/reviewid1 ShortDescr
 > + This one needs a lot of work. Set up a 1:1 with Person8 to discuss
 + 4 were small and easy
-+ link.to.review2.com
++ link.to.review.com/reviewid2 ShortDescr
 > + Waiting for revision
 
 ## Project 1
 + Did xyz on Project 1. This probably came from the project next actions
 
-## Recurring Meeting2 that I run
+## Meeting2 Recurring that I run
 + Invitees: Person1, Person3, Person5
 + Addendees: Person1, Person3, Person5, me
 + Opens
-> + How do we stop doing the stupid thing?
+> + How do we stop doing the ST?
+*[ST]: Stupid Thing
 >> + No one knows, will consider this for a future disucssion
->> + AR: Joe- Add to agenda for WW45 This I want in both m.meetings2.ars and my todo list
->> + AR: Person1 - Prepare topic for WW45 This should go in m.meeting2.ars
-+ First Topic, I, Joe (Maybe "I" should be a link to m.meeting.types#Informational)
+>> + AR: Joe- Add ST to agenda for WW45 This I want in both m.meetings2.ars and my todo list
+>> + AR: Person1 - Prepare ST topic for WW45 This should go in m.meeting2.ars
++ First Topic, I, Joe (Maybe "I" should be a link to m.types#Informational)
 >> + Presented status of Project1
 >> + Feedback from Person3- Can we pull this in a week to meet new request?
 >> + AR Joe: Evaluate backlog- what would slip? This should go to both m.meeting2.ars and my personal todo list
@@ -114,3 +115,12 @@ az cli command to do-the-next-thing
 >>> + need Person2 and Person3 for quorum
 >> + This topic should go into m.meeting3 
 + This should all be refactored into m.meeting2.date
+
+
+---
+# Testing
+[Google][]
+
+
+[Google]: http://www.google.com 
+[Yahoo]: http://search.yahoo.com "Yahoo Search"
