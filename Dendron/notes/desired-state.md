@@ -2,7 +2,7 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1663520781724
+updated: 1663521646586
 created: 1663433606814
 ---
 
@@ -76,7 +76,9 @@ created: 1663433606814
 ## Other questions
 ### Is there a drawback to making ctrl-enter use "Dendron: Go to" instead of "Dendron: Go to note"?
 [Google][http://www.google.com] will let me ctrl-click, but not ctrl-enter
+
 [[new-note]]
+
 ### What's the best way to make nested lists
 1. Do I just use intented text?
     1. This is indented
@@ -84,31 +86,39 @@ created: 1663433606814
 > 1. Either way, can I make a third level different?
 >> 1. Or must it be letters too?
 1. I like bullets, but why are these all the same? Is there a way to make them render differently?
-* asterisk
-+ plus
-- dash 
-1. I feel like I'll need to come up with a format using heading
+  * asterisk
+  + plus
+  - dash 
+1. I feel like I'll need to come up with a format using heading since this restarts the numbers. It takes 4 spaces to keep the numbering, but hitting tab apparently has some "smarts"
+    * asterisk
+    + plus
+    - dash 
+1. This will keep numbering
+> * As will the next, I assume
+1. Test
 
 ### Is there a way to "dicover" missing links? Maybe a "soft backlinks" list that shows not just the actual links but a list of files that contain that word
 
-### Tables is there an easy way to line up the pipes?
+### In tables is there an easy way to line up the pipes?
+~~~
 | Title1 | Title2 |
 | :--- | :--- |
 | This sentense is quite long but I don't want to manually line thigns up| or do I rely on the preview? | 
-
+~~~
 So it looks like this?
-
+~~~
 | Title1                               | Title2                                       |
 | :---                                 | :---                                         |
 | This style table is readable in text | And I don't really care about the right side | 
+~~~
 
-### Are we still limited to 6 levels of headers, since it's just MD?
+### Are we still limited to 6 levels of headers, since it's just MD? Or is there a workaround for that?
  
-### Are we still prevented from starting lists at an arbitrary number?
+### It appears we still prevented from starting lists at an arbitrary number? I assume that is still an HTML limitation and this renders everythign to HTML?
 3. Will render as 1
 5. Doesn't matter the number
 
-### How to force hanging indents with long text
+### How can I force hanging indents with long text?
 * This is a really long line, like longer than I want to be on one line, so I will need to wrap the text at
 some point, I guess here.
 * This is the second item. It's also longer than I would like on a line. But I'll manually indent it this time 
