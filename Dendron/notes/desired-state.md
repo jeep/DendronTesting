@@ -2,7 +2,7 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1663521646586
+updated: 1663522010143
 created: 1663433606814
 ---
 
@@ -85,11 +85,13 @@ created: 1663433606814
 1. Or I can indent with block quotes
 > 1. Either way, can I make a third level different?
 >> 1. Or must it be letters too?
-1. I like bullets, but why are these all the same? Is there a way to make them render differently?
+1. I like bullets, but why are these all the same? Is there a way to make them render differently? If so, I could use those to make my lists.
+  ~~~
   * asterisk
   + plus
   - dash 
-1. I feel like I'll need to come up with a format using heading since this restarts the numbers. It takes 4 spaces to keep the numbering, but hitting tab apparently has some "smarts"
+  ~~~
+1. I feel like I'll need to come up with a format using heading since this restarts the numbers. It takes 4 spaces to keep the numbering, but hitting tab apparently has some "smarts."
     * asterisk
     + plus
     - dash 
@@ -97,7 +99,7 @@ created: 1663433606814
 > * As will the next, I assume
 1. Test
 
-### Is there a way to "dicover" missing links? Maybe a "soft backlinks" list that shows not just the actual links but a list of files that contain that word
+### Is there a way to "dicover" missing links? Ideally a "soft backlinks" list that shows not just the actual links but a list of files that contain that word or phase (I got used to that with org roam)
 
 ### In tables is there an easy way to line up the pipes?
 ~~~
@@ -115,6 +117,10 @@ So it looks like this?
 ### Are we still limited to 6 levels of headers, since it's just MD? Or is there a workaround for that?
  
 ### It appears we still prevented from starting lists at an arbitrary number? I assume that is still an HTML limitation and this renders everythign to HTML?
+~~~
+3. Will render as 1
+5. Doesn't matter the number
+~~~
 3. Will render as 1
 5. Doesn't matter the number
 
