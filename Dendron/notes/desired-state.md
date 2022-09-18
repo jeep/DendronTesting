@@ -2,7 +2,7 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1663522010143
+updated: 1663541464360
 created: 1663433606814
 ---
 
@@ -23,6 +23,12 @@ created: 1663433606814
 1. Daily notes captured easily and then reorganized as desired (leaving links in daily)
 
 # Work Computer
+1. Work Workspace
+1. Personal Workspace
+
+# Home Computer
+1. Personal Workspace only
+# Workspaces
 ## Work workspace 
 + Peacock to have special color to indicate "do not push to remote" and not safe for personal info
 1. [[Worknotes vault | #worknotes-vault]] (why does [[#worknotes-vault]] render to the page title)
@@ -125,10 +131,9 @@ So it looks like this?
 5. Doesn't matter the number
 
 ### How can I force hanging indents with long text?
-* This is a really long line, like longer than I want to be on one line, so I will need to wrap the text at
-some point, I guess here.
+* This is a really long line, like longer than I want to be on one line, so it will need to wrap the text at some point, I guess here.
 * This is the second item. It's also longer than I would like on a line. But I'll manually indent it this time 
-  so that it lines up
+  so that it lines up. But I need to hit 2 spaces, because tab here indented it 4
 *   The other options is to always use tabs.
     Which will be easier, but it's not what I'm used to
 
