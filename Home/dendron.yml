@@ -7,7 +7,7 @@ commands:
         note:
             selectionMode: extract
             confirmVaultOnCreate: true
-            vaultSelectionModeOnCreate: alwaysPrompt
+            vaultSelectionModeOnCreate: smart
             leaveTrace: false
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
@@ -25,19 +25,7 @@ workspace:
         -
             fsPath: .
             selfContained: true
-            name: Dendron
-        -
-            fsPath: ../Shared
-            selfContained: true
-            name: Shared
-        -
-            fsPath: ../People
-            selfContained: true
-            name: People
-        -
-            fsPath: ../Project1
-            selfContained: true
-            name: Project1
+            name: Home
     journal:
         dailyDomain: daily
         name: journal
@@ -68,13 +56,13 @@ workspace:
             H: high
             M: medium
             L: low
-        todoIntegration: true
+        todoIntegration: false
         createTaskSelectionType: selection2link
     graph:
         zoomSpeed: 1
         createStub: false
     enableAutoCreateOnDefinition: false
-    enableXVaultWikiLink: true
+    enableXVaultWikiLink: false
     enableRemoteVaultInit: true
     enableUserTags: true
     enableHashTags: true
@@ -118,8 +106,3 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - Shared
-            - Dendron

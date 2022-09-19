@@ -2,7 +2,7 @@
 id: 9vsd48u2p5rbajdz9cl89y5
 title: '2022-09-15'
 desc: ''
-updated: 1663520800350
+updated: 1663621466812
 created: 1663259878972
 traitIds:
   - journalNote
@@ -11,7 +11,6 @@ traitIds:
 [[desired-state]]
 
 [[todo#next-actions]]
-
 ## Todo list
 embed todo file's "next actions" section
 link to to list
@@ -23,15 +22,11 @@ link to to list
 
 ##  Random ideas - I don't really want these to always need a header, but maybe I just keep a section for this
 + I had this thought about a thing. It can just live here for now
-+ I had this other thought that I think should have its own note
-- [ ] Wow, I really should do this other thing today - this goes to todo list
++ [[Cool Idea2|dendron://Dendron/ref.cool-idea2]]
 + I looked at that one thing and it was cool. This just lives here
-+ In order to do SomeCoolThing in Powershell- this should be in the shared reference location
-```Powershell
-Get-ChildItem NotReally
-Get-ChildItem ACoolThing
-```
++ [[Some Cool Thing|dendron://Shared/l.powershell.some-cool-thing]]
 + I don't want to forget this and should be in its own note tiny note named "neato-thing"
++ [[CoolMeeting1 | dendron://Dendron/daily.journal.2022.09.15#coolmeeting1---a-recurring-that-i-participate-in]]
 + In order to do some work thing in Powershell you do this- this should be in intel.notename
   + Log into suchandsuch.website
   + Gather this information
@@ -41,17 +36,17 @@ Get-ChildItem ACoolThing
     az cli cmd-to do-the-next-thing
     ~~~
 
-## Meeting1 - a recurring that I participate in
+## CoolMeeting1 - a recurring that I participate in
 + We talked about the thing
 + Decision made: We will do that thing
 + AR: Do my part of the thing This needs to turn into a ToDo in my todos
-+ This should be refactored into m.meeting1.date
++ This should be refactored into m.coolmeeting1.date
 + with the content linked or embedded here
 
-## Ad-hoc work session with Person1
+## Ad-hoc work session with Person1 [[Person3|dendron://People/person3-lastname]]
+[[Person1|dendron://People/Person1]]
 + We talked about a thing. This should go to c.person1.date
 + Or is it good enough to just have people be in my shared vault and rely on backlinks?
-
 ## Project1
 + Random thought about Project1... what if we CLISP instead of C#? Bad idea?
 + I feel like I need the heading so it doesn't lost... but would prefer to capture it more linearly
@@ -124,3 +119,5 @@ Get-ChildItem ACoolThing
 
 [Google]: http://www.google.com 
 [Yahoo]: http://search.yahoo.com "Yahoo Search"
+
+ (<em>Hello</em>  World!)
