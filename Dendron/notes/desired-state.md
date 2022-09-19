@@ -2,11 +2,12 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1663541464360
+updated: 1663630571501
 created: 1663433606814
 ---
 
 # Recommended agenda
+1. Introductions
 1. Review desired state (Joe)
 1. Feedback on desired state (mentor)
 1. Set up and additional vaults and workspaces needed
