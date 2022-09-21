@@ -1,0 +1,128 @@
+:PROPERTIES:
+:ID:       4a7fb30e-2c35-4eec-820f-63770e629fc0
+:END:
+#+title: 2021 Intel Software Professionals Conference
+#+category: SWPC 2021
+#+filetags: :work:ToReview:Conference:
+
+* Contents :toc_2:
+- [[#general-comments][General comments]]
+- [[#valuable-most-were-even-interesting][Valuable (most were even interesting)]]
+  - [[#value-first-mindset-career-development-with-a-twist][Value-First Mindset: Career Development With a Twist]]
+  - [[#day2-keynote---the-tyranny-of-the-urgent-career-development-topic][Day2 Keynote - The Tyranny of the Urgent (Career Development Topic)]]
+  - [[#intro-from-pat-gelsinger-pat-gelsinger][Intro from Pat Gelsinger Pat Gelsinger]]
+  - [[#building-continuous-quality-into-python-projects][Building continuous quality into Python projects]]
+  - [[#showing-the-benefits-of-optane-technology-for-rocksdb-performance-on-intel-and-competitive-platforms-lucagiacchinointelcom][Showing the benefits of Optane technology for RocksDB performance on Intel and competitive platforms (luca.giacchino@intel.com)]]
+  - [[#programmatic-control-of-a-compiler-for-productive-performance-across-spatial-and-vector-architectures][Programmatic Control of a Compiler for Productive Performance across Spatial and Vector Architectures]]
+- [[#very-interesting][Very Interesting]]
+  - [[#charismatic-robots][Charismatic Robots]]
+- [[#interesting][Interesting]]
+- [[#sounds-insteresting-but-missed-somemost-of-it][Sounds insteresting but missed some/most of it]]
+- [[#didnt-find-value][Didn't find value]]
+- [[#missed-but-not-interested][Missed but not interested]]
+
+* General comments
++ This is scheduled too tightly! Two five-minute breaks for the entire day. Day 2 went after 5:00
++ Didn't get much out of it, sadly. This conference has been decreasing in value over the last several years
++ Sound levels and other tech issues were a plague for the conference
++ Lightning talks- not enough time for most of them, so no real value. could have provided more value with full sessions
++ Lightning talks value is letting people know things exist, but for the most part these didn't point to other resources.
++ Sound levels were all over the place
++ Plagued with tech issues.
+* Valuable (most were even interesting)
+** Value-First Mindset: Career Development With a Twist
++ Michael Jacobson created a "destination meeting"
++ Focussed on One Intel
++ Don't talk about your tasks- talk about the value you provide, instead
+*** Value-first mindset
++ What problems need to be solved
++ Skills and Experience are important to HOW you do something
++ Both are important, order isn't important, though.
++ Business acumen (Wikipedia definition)- An understanding of how you use your skills and experience to solve the customer problems
+ * Need to use your expertise to address the problem- the knowledge isn't the goal
++ goto/iidf
+**** What are you worth?
++ VRIO
+  [[file:/mnt/c/Users/jpeterso/Documents/VRIO-Model.png]]
+** Day2 Keynote - The Tyranny of the Urgent (Career Development Topic)
++ full of survivor bias, but good advice generally
++ Make a plan and execute to it in order to progress in your career
+** Intro from Pat Gelsinger [[id:7891011d-ed26-48a6-94fb-21570729bece][Pat Gelsinger]]
+The primary focus was basically
++ One Intel
++ Torrid Pace
+Nothing new for people who have been paying attention
+** Building continuous quality into Python projects
++ Should have been a longer session. I think this could be interesting to follow up on.
+*** How to ensure quality?
++ some can be checked by automated tools
++ lint and scan it early and often
++ "Continuous confidence" through quality Gates
+  identify and prioritize unit testing of complicated code
++ Pybuilder is an open source buile automation tool for Python tools
+*** Pybuilder
+  +  platform agnostic
+  +  simple API
+  +  fast
+  + Code quality metrics using several plug-ins
+** Showing the benefits of Optane technology for RocksDB performance on Intel and competitive platforms (luca.giacchino@intel.com)
+*** TODO rewatch Optane on RocksDB presentation
+*** Optane in RocksDB
++ can use larger block cache
++ Contributed a new block cache
++ Tested using db_bench w/ 100% read workload Storage: 4NVMe drives, barlow pass dimms
++ Performance results shown 6x improvement going to P5800X PCIe Gen4 optaion vs PCIe Gen3 NAND
++ Storage cost per throughput remains the same
++ non-optane: AMD and Intel have comparable performance
++ With Optane- clear Intel benefit
++ Compared with ARM (ampere altra) Comparable throughput, Intel has 1/2 the latency
+** Programmatic Control of a Compiler for Productive Performance across Spatial and Vector Architectures
++ Interesting content, maybe rewatch and reach out for more edification
+* Very Interesting
+** Charismatic Robots
++ Keynote from Heather Knight- social roboticist from Oregon State
++ Robots need to react as expected for the most part
++ The OSU food delivery robots caused confusion at intersections. Now they back up a bit to signal that the person or car can go.
++ CS student with robotics in their first year are more likely to graduate with that degree (statement made, not sourced/vetted)
++ Robots that operate around people need to prioritize what WE care about
++ People bond with machines
+  * reminded me of https://twitter.com/rondanchan/status/1227389541515853824?lang=en
+    [[file:/mnt/c/Users/jpeterso/Documents/humans-robots.png]]
+* Interesting
++ FW Validation using Change based validation
++ Hardening AI/ML workloads - Fun but felt more like an advertisement
++ A Comprehensive Co-optimization Framework for Deep Neural Networks on Intel Hardware
++ Machine Learning Assisted Context-based Battery Charging - found this very interesting
++ A Study on Static Code Analyzers in Data Attack Detection -  goto/dfa
++ Customer Quick Start Stack for Microservices on Intel DC & Edge Platforms - maybe better as a full session
++ Machine Learning Approach to Optimize Cache Prefetcher Aggressiveness at Run-Time in HPC System
++ Incorporating Elasticsearch and Kibana into a Software Development Automation - full session?
++ Contract testing with Docker Compose and OpenAPI as integration testing alternative
++ Performance analysis and optimal configuration of microservice architectures using Genetic Algorithm for x86-64 server platforms
++ Product Life After Launch-Long Term Retention and Support
+* Sounds insteresting but missed some/most of it
++ TODO watch these in the background
++ Robust auto triage using quark
++ End to end performance projection for XeGPU with Quantum Espresso
++ Standardizing architecture and support for guest/VM live migration with PCI Device Suspend Capability
++ Experience-driven System Architecture Transformation with Entry Education Segment
++ Intel’s New Unified PLC and its Impact to Intel SW
++ It's a mess in the Service Mesh!
++ Improving Language Model Fine-tuning by Discovering Informative Contexts -Distracted but the parts I saw were interesting. Rewatch?
++ Migrating AutoDock-GPU, a Drug Screening Code to Data Parallel C++
+* Didn't find value
++ Scalable IP initialization and error correction with binary and configurable data-based firmware approach through Firmware Support Package
++ Rust for C++ - looked forward to this, but was terribad
++ Identifying External Manufacturing Cost Savings Using Azure Cloud - all seemed obvious or trite
++ Better AI scheduling with Machine Learning Service - maybe better as full session?
++ (Historical) Bug Records ENabled Debug Assistant
++ TestSuite – Innovative way to Improve Val coverage & reduce significant automation time of FW testing with 100% automatable tests on Pre/Post silicon - Didn't seem all that innovative, maybe I don't grok
++ Software for AI: Challenges and opportunities
++ Broadcast’s Sequence of Scan Packets Optimization: A Significant Reduction of Test Time and Vector Memory
++ Validation Log Automation
+* Missed but not interested
++ Scheduling on Intel Hybrid and Software Enabling
++ Growing Concern of Information Technologies: Cybersecurity
++ Enable Athena Intelligent Collaboration Features on Chrome using IPU and GPU Offloading
++ Missed day 3 11:45-12:35 talk session
++ Day 3 last block oF TeD talks
