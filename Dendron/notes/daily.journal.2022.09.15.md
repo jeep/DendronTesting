@@ -2,7 +2,7 @@
 id: 9vsd48u2p5rbajdz9cl89y5
 title: '2022-09-15'
 desc: ''
-updated: 1663722890396
+updated: 1663723057244
 created: 1663259878972
 traitIds:
   - journalNote
@@ -20,6 +20,10 @@ link to to list
 + [x] When I complete an item in my "todo" file, I want the completion to move to the daily when it was completed. 
 * [ ] Any way to put items here automagically with a shortcut?
 
+* MinorMistake: Here I mess up and use the old style notes
+** Org uses asterisks to denote levels
+** I will need to fix this up and capture it properly
+** Likely this all goes into some note
 
 ##  Random ideas - I don't really want these to always need a header, but maybe I just keep a section for this
 + I had this thought about a thing. It can just live here for now
