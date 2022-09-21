@@ -2,7 +2,7 @@
 id: 7oxhpk9vtydj0lvxav1xomd
 title: Types
 desc: ''
-updated: 1663445858186
+updated: 1663732208053
 created: 1663444759677
 ---
 
@@ -17,8 +17,8 @@ created: 1663444759677
 > 1. Goal Setting
 > 1. Intake 
 > 1. Planning 
-1. Grooming 
-1. Problem Solving
+1. Grooming (G)
+1. Problem Solving (P)
 1. Just getting stuff done 
 ### Team Building (TB)
 1. Quarterly
