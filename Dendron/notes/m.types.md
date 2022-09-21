@@ -2,7 +2,7 @@
 id: 7oxhpk9vtydj0lvxav1xomd
 title: Types
 desc: ''
-updated: 1663732208053
+updated: 1663732316710
 created: 1663444759677
 ---
 
@@ -14,9 +14,9 @@ created: 1663444759677
 ### Work session (W)
 1. Brainstorming 
 1. Planning
-> 1. Goal Setting
-> 1. Intake 
-> 1. Planning 
+    1. Goal Setting
+    1. Intake 
+    1. Planning 
 1. Grooming (G)
 1. Problem Solving (P)
 1. Just getting stuff done 
