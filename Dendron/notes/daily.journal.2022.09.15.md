@@ -2,7 +2,7 @@
 id: 9vsd48u2p5rbajdz9cl89y5
 title: '2022-09-15'
 desc: ''
-updated: 1663723057244
+updated: 1663979206945
 created: 1663259878972
 traitIds:
   - journalNote
@@ -15,7 +15,7 @@ traitIds:
 embed todo file's "next actions" section
 link to to list
 + [ ] Something I should do
-+ [ ] These should mOve into the "todo" file once I process, if I haven't done it haven't done
++ [ ] These should move into the "todo" file once I process, if I haven't done it haven't done
 + [x] This is a completed item, it doesn't need to move, just lives here
 + [x] When I complete an item in my "todo" file, I want the completion to move to the daily when it was completed. 
 * [ ] Any way to put items here automagically with a shortcut?
@@ -27,7 +27,7 @@ link to to list
 
 ##  Random ideas - I don't really want these to always need a header, but maybe I just keep a section for this
 + I had this thought about a thing. It can just live here for now
-+ I had this other thought that I think should have its own note
++ ![[Cool Thought|dendron://Dendron/r.cool-thought]]
 + I looked at that one thing and it was cool. This just lives here
 + In order to do SomeCoolThing in Powershell- this should be in the shared reference location
 ```Powershell
@@ -132,3 +132,6 @@ Get-ChildItem ACoolThing
 
  [[c.person3]]
  [[x.where-will-this-go]]
+
+
+ 
