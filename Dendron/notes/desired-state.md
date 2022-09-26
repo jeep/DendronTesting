@@ -2,7 +2,7 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1664156351661
+updated: 1664157328534
 created: 1663433606814
 ---
 
@@ -12,11 +12,10 @@ created: 1663433606814
 1. Easy use of project vaults to segregrate knowledge from project work
 1. Daily notes captured easily and then reorganized as desired (leaving links in daily)
 1. Before I can migrate the following must be resolved or have a workaround:
-    * https://github.com/dendronhq/dendron/issues/3548
-    * https://github.com/dendronhq/dendron/issues/3546
-    * https://github.com/dendronhq/dendron/issues/3547
-    * (possibly) https://github.com/dendronhq/dendron/issues/3549
-
+    - https://github.com/dendronhq/dendron/issues/3548
+    - https://github.com/dendronhq/dendron/issues/3546
+    - https://github.com/dendronhq/dendron/issues/3547
+    - (possibly) https://github.com/dendronhq/dendron/issues/3549
 # Work Computer
 1. [[Work workspace|dendron://Dendron/desired-state#work-workspace]]
 1. [[Personal workspace|dendron://Dendron/desired-state#personal-workspace]]
@@ -43,6 +42,7 @@ created: 1663433606814
 ## Vaults
 
 ### WorkNotes vault 
+
  `Local git repo`
 
 * daily
@@ -116,8 +116,8 @@ created: 1663433606814
 
 * Sync with github
 * projects - p.*
-    + small
-    + `<project name>`
+    - small
+    - `<project name>`
         - `<subproject, if needed>`
 * daily
     - journal
@@ -130,6 +130,5 @@ created: 1663433606814
 * Likely to be 3 of them at a time
 * Mostly for things that I want to keep a separate knowledgebase for
 * ex. Active books/stories that I'm writing
-
 
 [[open-questions]]
