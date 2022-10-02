@@ -2,7 +2,7 @@
 id: 5whbl1or5si0kn3sul5vvpg
 title: Desired State
 desc: ''
-updated: 1664157328534
+updated: 1664738568320
 created: 1663433606814
 ---
 
@@ -16,6 +16,7 @@ created: 1663433606814
     - https://github.com/dendronhq/dendron/issues/3546
     - https://github.com/dendronhq/dendron/issues/3547
     - (possibly) https://github.com/dendronhq/dendron/issues/3549
+1. [[work-flow]]
 # Work Computer
 1. [[Work workspace|dendron://Dendron/desired-state#work-workspace]]
 1. [[Personal workspace|dendron://Dendron/desired-state#personal-workspace]]
@@ -59,7 +60,6 @@ created: 1663433606814
             Standing agenda
             Sunset criteria
             ~~~
-
         + Horizon Agenda - for meetings I run
         + `<date>` - for minutes or notes
             
@@ -69,7 +69,6 @@ created: 1663433606814
     - `<project name>`
         - Todos
         - `<reference material>`
-
     - archive.*
 * todo
 
@@ -77,6 +76,7 @@ created: 1663433606814
 
  `Sync'd to github`
 
+https://github.com/jeep/ReferenceVault.git
  `migrate org notes to this structure`
 
 * technology
@@ -107,14 +107,17 @@ created: 1663433606814
 
  `Sync'd to github`
 
+ https://github.com/jeep/PeopleVault.git
+
  `primarily used for backlinks`
 
-    - `<firstname.lastname>
+    - `<firstname-lastname>
  
 
 ### HomeNotes vault
 
 * Sync with github
+https://github.com/jeep/HomeVault.git
 * projects - p.*
     - small
     - `<project name>`
@@ -128,6 +131,7 @@ created: 1663433606814
 ### HomeProject vaults
 
 * Likely to be 3 of them at a time
+https://github.com/jeep/SeasonsVault.git
 * Mostly for things that I want to keep a separate knowledgebase for
 * ex. Active books/stories that I'm writing
 

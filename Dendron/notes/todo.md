@@ -2,7 +2,7 @@
 id: 72l9pujcyn7l5ciki9gvs5o
 title: Todo
 desc: ''
-updated: 1663433469715
+updated: 1664370762819
 created: 1663269557941
 ---
 
@@ -20,3 +20,8 @@ created: 1663269557941
 - [ ] something to do sometime
 
 - [ ] Wow, I really should do this other thing today - this goes to todo list
+
+
+# Unprocessed
+
+* [ ] This is a todo item that I thought of today
