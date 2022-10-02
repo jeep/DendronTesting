@@ -2,7 +2,7 @@
 id: jo1gckv9rs978h7au6q29f5
 title: Work Flow
 desc: ''
-updated: 1664739779496
+updated: 1664740506719
 created: 1664738568184
 ---
 # Mapping how I used to work to how I will work
@@ -67,7 +67,7 @@ TODO
 + At the end of the day I try to process my notes so that the morning processing of the log is just moving a couple things around
 + Capturing in Org was pretty easy as I just needed to use stars to give an outline structure to the captures. 
 + Figuring out how I want to do it with md will likely be immediately after TODO Tree
-+ For now, I'm just doing unordered lists which can go up to 8 levels of hierarchy. I started out trying to use headings and it kind of sucked. I cycle through using * + - in that order twice to help me see structure when not using the preview
++ For now, I'm just doing unordered lists which can go up to 6 levels of hierarchy. I started out trying to use headings and it kind of sucked. I cycle through using * + - in that order twice to help me see structure when not using the preview
 ## Processing captured stuff
 + Ideally, this would be a "daily reflection" but usually I don't actually "reflect" on the day and sometimes I process notes other than my daily log
 + I go bullet by bullet through my log (or the file being processed) and based on the type of item it is, process it like so:
